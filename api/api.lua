@@ -2,14 +2,14 @@ local URL = require "socket.url"
 local https = require "ssl.https"
 local serpent = require "serpent"
 local json = (loadfile "/usename/inline/data/JSON.lua")()
-local token = '' --token
-local url = 'https://api.telegram.org/bot' .. token
+local token =  246808740:AAGOkvEH9CnQkuCP19vK8pRzK_-f8ppNAfU
+local url = 'https://api.telegram.org/bot' ..  246808740:AAGOkvEH9CnQkuCP19vK8pRzK_-f8ppNAfU
 local offset = 0
 local redis = require('redis')
 local redis = redis.connect('127.0.0.1', 6379)
-local SUDO = 123456789
+local SUDO = 140760293
 function is_mod(chat,user)
-sudo = {123456789}
+sudo = {140760293}
   local var = false
   for v,_user in pairs(sudo) do
     if _user == user then
